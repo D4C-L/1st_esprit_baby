@@ -22,7 +22,12 @@ public class Zoo {
 
     public void addAnimal(Animal animal){
     if (cmp<nbrCages)
-        animals[++cmp] = animal;
+        animals[cmp++] = animal;
+    }
+
+    public void showAnimals(){
+        for (int i=0;i<cmp;i++)
+            System.out.println(animals[i]);
     }
 
     public String toString(){return "le zoo va contenir "+this.nbrCages+" cages.";}

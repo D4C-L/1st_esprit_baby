@@ -11,5 +11,8 @@ public class Main {
         System.out.println(zoo1);
         Animal animal = new Animal("cats", "lion", 8, true);
         System.out.println(animal);
+        zoo1.addAnimal(animal);
+        System.out.println(zoo1.cmp);
+        zoo1.showAnimals();
     }
 }
