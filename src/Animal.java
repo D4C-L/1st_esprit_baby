@@ -1,6 +1,6 @@
 public class Animal {
     String family;
-    String name;
+    public String name;
     int age;
     boolean isMammal;
 
@@ -11,5 +11,6 @@ public class Animal {
         this.isMammal = isMammal;
     }
 
-    public String toString(){return "l'animal de la famille \""+ this.family + "\" est un " + this.name + " agé de " + this.age + ".";}
+    public String toString()
+    {return "l'animal de la famille \""+ this.family + "\" est un " + this.name + " agé de " + this.age + ".";}
 }
